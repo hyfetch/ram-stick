@@ -42,7 +42,7 @@ class Tags(discord.ext.commands.Cog):
         )
         embed.set_footer(text="Made with ♥ by Mero")
         view = discord.ui.View()
-        view.add_item(discord.ui.Button(style=discord.ButtonStyle.url, label="Source code", url="https://github.com/hyfetch/ram-eater"))
+        view.add_item(discord.ui.Button(style=discord.ButtonStyle.url, label="Source code", url="https://github.com/hyfetch/ram-stick"))
         await interaction.response.send_message(embed=embed, view=view)
 
 
